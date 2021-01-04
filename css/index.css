@@ -1,8 +1,9 @@
+.body_background{
+    background-color: rgb(240, 226, 240);
+}
 /* body */
 .main-container{
-    
-}
-_spacing.scss:11
+
 }
 .main-contents {
 
@@ -25,12 +26,15 @@ _spacing.scss:11
 }
 .index_content01_over_box{
     text-align: center;
+    background: #c0c0c0;
+    margin: 5px;
 }
 .company_sample_color{
-    background: #c0c0c0;
+
 }
 .recruit_sample_color{
     background: #ddd;
+    margin: 5pxs;
 }
 #staff_link{
     width: 100%;
@@ -38,45 +42,42 @@ _spacing.scss:11
 }
 /* news */
 .news_box{
-    display:flex;
-}
-.news_box h2{
-    padding:5% 0 ;
+    display: flex;
+    margin: 2%;
+    padding: 5%;
+    background-color: rgb(222, 209, 231);
 }
 .news_box_title{
     text-align: center;
-    background:#FFEEFF;
+    padding: ;
+}
+.news_sub_title{
+    text-align: center;
+    padding-bottom: 2%;
 }
 .news_list{
     width: 60%;
     margin: 0 auto;
 }
 .news_list_content{
-    padding: 0.5%;
+
 }
 .news_list_content_day{
     padding: 12px;
 }
-.sns-info{
-    background:#F8F8FF;
-}
-.sns-info_title{
-    text-align:center;
-    margin:5% 3%;
-    background:#D9E5FF;
-}
-
 
 
 /* footer */
-.footer-conteiner{
+.footer_logo{
     text-align: right;
+    margin: 2%;
+    padding-top: 10px;
 }
 
 @media screen and (min-width: 768px){
     .index_content01{
 
-    }
+}
     .index_content01_over{
         display: flex;
         flex-wrap: wrap;
@@ -84,11 +85,6 @@ _spacing.scss:11
     .index_content01_over_box{
         width: 50%;
         padding: 80px 0;
-    }
-    .sns-info{
-        width:40%;
-        margin:0 auto;
-        
     }
 
 }

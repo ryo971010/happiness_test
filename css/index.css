@@ -27,14 +27,14 @@
 .index_content01_over_box{
     text-align: center;
     background: #c0c0c0;
-    margin: 5px;
+    margin: 1%;
 }
 .company_sample_color{
 
 }
 .recruit_sample_color{
     background: #ddd;
-    margin: 5pxs;
+    margin: 1%;
 }
 #staff_link{
     width: 100%;
@@ -44,26 +44,32 @@
 .news_box{
     display: flex;
     margin: 2%;
-    padding: 5%;
+    padding: 2%;
     background-color: rgb(222, 209, 231);
 }
 .news_box_title{
     text-align: center;
-    padding: ;
 }
-.news_sub_title{
-    text-align: center;
-    padding-bottom: 2%;
+.news__tab__list {
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+    margin: 3px auto 3%;
+    border-bottom: 3px solid rgba(48, 41, 41, 0.1);
 }
 .news_list{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 .news_list_content{
-
+    margin: 2% 10%;
 }
 .news_list_content_day{
-    padding: 12px;
+
+}
+.news__more{
+    padding-left: 80%;
 }
 
 
@@ -83,7 +89,7 @@
         flex-wrap: wrap;
     }
     .index_content01_over_box{
-        width: 50%;
+        width: 48%;
         padding: 80px 0;
     }
 

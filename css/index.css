@@ -61,6 +61,7 @@
 .news_list{
     width: 70%;
     margin: 0 auto;
+    background: #eae3e7;
 }
 .news_list_content{
     margin: 2% 10%;
@@ -109,6 +110,11 @@
         padding: 12vw 0;
     }
 
-    
+    .news_list_content_day{
+        display:none;
+    }
+    .news__more{
+        padding-left:42%;
+    }
 }
 

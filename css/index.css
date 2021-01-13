@@ -27,14 +27,12 @@
 .index_content01_over_box{
     text-align: center;
     background: #c0c0c0;
-    margin: 1%;
 }
 .company_sample_color{
 
 }
 .recruit_sample_color{
     background: #ddd;
-    margin: 1%;
 }
 #staff_link{
     width: 100%;
@@ -90,7 +88,7 @@
         flex-wrap: wrap;
     }
     .index_content01_over_box{
-        width: 48%;
+        width: 50%;
         padding: 80px 0;
     }
 

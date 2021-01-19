@@ -1,7 +1,7 @@
-.body_background{
-    background-color: rgb(240, 226, 240);
-}
 /* body */
+.header_box{
+
+}
 .main-container{
 
 }
@@ -41,9 +41,9 @@
 /* news */
 .news_box{
     display: flex;
-    margin: 2%;
     padding: 2%;
-    background-color: rgb(222, 209, 231);
+    background: #eae3e7;
+
 }
 .news_box_title{
     text-align: center;
@@ -59,7 +59,6 @@
 .news_list{
     width: 70%;
     margin: 0 auto;
-    background: #eae3e7;
 }
 .news_list_content{
     margin: 2% 10%;
@@ -73,6 +72,20 @@
 
 
 /* footer */
+.footer-conteiner{
+    margin: 5%;
+}
+.row{
+    padding-bottom: 5%;
+}
+.footer_list{
+    width: 30%;
+    height: 30%;
+}
+.footer_list_img{
+    width:30%;
+}
+
 .footer_logo{
     text-align: right;
     margin: 2%;
